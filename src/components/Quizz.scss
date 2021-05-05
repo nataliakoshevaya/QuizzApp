@@ -1,0 +1,29 @@
+$blue: #483ac2;
+$black: #000;
+$white: #fff;
+
+.wrapper {
+   display: inline-block;
+   background-color: $blue;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px $black;
+   width: 500px;
+}
+
+.question__wrapper {
+    margin-top: 15px;
+} 
+
+.answer__btn {
+    width: 50%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: $white;
+    cursor: pointer;
+    &:hover {
+        background-color: $blue;
+        color: $white;
+    }
+}
